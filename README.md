@@ -12,10 +12,8 @@ alias duckdb_notebooks_export=~/duckdb_notebooks/duckdb_notebooks_export.sh
 alias duckdb_notebooks_search=~/duckdb_notebooks/duckdb_notebooks_search.sh
 ```
 
-
-
 requirements
 ----
-duckdb
-jq
-[version](https://github.com/jaywgraves/version)  this just makes a backup each time you export the notebooks.  It can easily be commented out.
+- duckdb
+- jq
+- [version](https://github.com/jaywgraves/version)  this just makes a backup each time you export the notebooks.  It can easily be commented out.
