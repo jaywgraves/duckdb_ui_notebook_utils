@@ -18,4 +18,5 @@ duckdb -readonly -json -s "select notebook_id,title,created,json_extract(json_ex
 # mv duckdb_notebooks.*.json archive
 
 version duckdb_notebooks.json
+mkdir -p archive
 mv duckdb_notebooks.*.*.json archive
